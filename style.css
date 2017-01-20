@@ -1,0 +1,32 @@
+.img-circle {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+body, html {
+    height: 100%;
+}
+
+.header-image {
+    height: 300px;
+    width: 300px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("diana.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
