@@ -17,6 +17,9 @@
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Tenor+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link href='custom.css' rel='stylesheet' type='text/css'>
     <script src="validator.js"></script>
@@ -66,9 +69,8 @@
     </div>
 
     <section id="about_me" data-parallax="scroll" data-image-src="images/about-me.jpg">
-        <div class="container-fluid">
-            <img class="img-circle header-image" src="images/matei_suica_android_developer_ios_mobile.jpg" />
-            <h2>About me</h2>
+        <h2>About me</h2>
+        <div class="container-fluid section-container">
             <div id="personal_mission">
                 <h3>Personal mission</h3>
             </div>
@@ -82,9 +84,8 @@
     </section>
 
     <section id="technical_skills"  data-parallax="scroll" data-image-src="images/technical-skills.jpg">
-        <div class="container-fluid">
-            <h2>Technical Skills</h2>
-
+        <h2>Technical Skills</h2>
+        <div class="container-fluid section-container">
             <div id="android">
                 <h3>Android</h3>
                 <div id="android-skills" width='1px' height='1px' />
@@ -94,7 +95,7 @@
                 <p>I've been working on Android Apps for 5 years now and I really love it. It have been 5 years of intense development, having a 8 hour job and extra projects. I always like to joke that I should add 50% to my years of experience for the extra projects that have thought me a lot.</p>
                 <p>Given the fact that Android is so wide spread I had the chance to work on different kids of Apps. The first Android code I've seen was in Eclipse and it was an eBook Reader (Polo). Now, I work with Android Studio and the cool tools that the AOSP team comes with, together with IntelliJ and the whole community. I've been in the embedded area of Android with Twinca and DentCall Touch but I've also worked on Apps that are on the Play store and downloaded by thoulsands, like Mobiloud or Skivision.</p>
                 <p>Parts of the framework and libraries that I've used are:</p>
-                <ul>
+                <ul class="skills-list">
                     <li>GPS, Location, Maps</li>
                     <li>Network and Connectivity: Bluetooth and WiFi</li>
                     <li>Camera API</li>
@@ -119,7 +120,7 @@
         </p>
         <p>
             Using the latest tools form Apple and going through a couple of Udemy/Udacity course, I went through:</p>
-            <ul>
+            <ul class="skills-list">
                 <li>AutoLayout and Storyboards</li>
                 <li>AVAudioPlayer</li>
                 <li>Camera</li>
@@ -134,15 +135,21 @@
         </div>
         <div id="ruby_on_rails">
             <h3>Ruby on Rails</h3>
+            <p>
+                I didn't use to like RoR but it got my attention when I met Aryk Grosz (CTO at Mixbook) and he was amazed by the fact that we don't use RoR in Romania so much. I decided I should give it a try and I was amazed myself by the speed of development with Ruby. It seems like everything goes so smooth and the results are very fast visible. I settled to Ruby on Rails as my prefered backend technology to power my APIs. I already have two apps that connect to RoR backends I've coded and I'm working in close collaboration with RubyTribe Cluj to improve my skills.
+            </p>
         </div>
         <div id="angular2">
             <h3>Angular2</h3>
+            <p>
+                As an early adopter of programming languages and frameworks I've started learning Angular2 on a project that needed an Administration Panel on the web. Knowing nothing about web development offered me the possibility to learn whatever I choose. I went for Angular2 even though I was close to learning React. I'm doing pretty well in Typescript and I can handle most parts of the Framework, using without problem the Router, Http client, Data Binding, etc. It seems lately that all the technologies converge in doing things in similar ways as I found Angular2 to use the Reactive approach and Dependency Injection and all the good stuff I found on other platforms.
+            </p>
         </div>
     </div>
 </section>
 <section id="past_work" data-parallax="scroll" data-image-src="images/past-work.jpg">
-    <div class="container-fluid">
-        <h2>Past work</h2>
+    <h2>Past work</h2>
+    <div class="container-fluid section-container">
         <div id="nobia">
             <h3>Nobia</h3>
             <p>
@@ -224,14 +231,17 @@
     </section>
 
     <section id="working_style" data-parallax="scroll" data-image-src="images/work-style.jpg">
-        <div class="container-fluid">
-            <h2>Working style</h2>
+        <h2>Working style</h2>
+        <div class="container-fluid section-container">
+            <p>
+                Lorem ipsum you know the way :)
+            </p>
         </div>
     </section>
 
     <section id="conferences_and_workshops"  data-parallax="scroll" data-image-src="images/conferences-and-workshops.jpg">
-        <div class="container-fluid">
-            <h2>Conferences and workshops</h2>
+        <h2>Conferences and workshops</h2>
+        <div class="container-fluid section-container">
             <!-- ba, cristi, git workshop @ wirtek -->
             <div id="simplon">
                 <h3>Simplon</h3>
@@ -243,8 +253,8 @@
     </section>
 
     <section id="contact_me" data-parallax="scroll" data-image-src="images/contact-me.jpg">
-        <div class="container-fluid">
-            <h2>Contact me</h2>
+        <h2>Contact me</h2>
+        <div class="container-fluid section-container">
             <form id="contact-form" method="post" action="contact.php" role="form">
                 <div class="messages"></div>
                 <div class="controls">
