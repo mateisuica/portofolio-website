@@ -24,6 +24,7 @@
     <link href='custom.css' rel='stylesheet' type='text/css'>
     <script src="validator.js"></script>
     <script src="contact.js"></script>
+
     <title>Matei Suica</title>
 
 </head>
@@ -68,17 +69,37 @@
         </nav>
     </div>
 
-    <section id="about_me" data-parallax="scroll" data-image-src="images/about-me.jpg">
-        <h2>About me</h2>
-        <div class="container-fluid section-container">
-            <div id="personal_mission">
-                <h3>Personal mission</h3>
-            </div>
-            <div id="studies">
-                <h3>Studies</h3>
-            </div>
-            <div id="hobbies">
-                <h3>Hobbies</h3>
+    <section id="about_me"  data-parallax="scroll" data-image-src="images/about-me.jpg">
+        <div class="container-fluid">
+
+            <h2>About me</h2>
+            <div class="section-container">
+
+                <div id="personal_mission">
+                    <h3>Personal mission</h3>
+                    <p>
+                        Education is not a zero-sum gain but a multiplicator: offering education can only bring back more knowledge. My deepest commitment is dedicated to providing education to anyone who wants it. Modern tools, including the Internet and the Software that's so widespread nowadays are great for achieving this.
+                    </p>
+                </div>
+                <div id="studies">
+                    <h3>Studies</h3>
+                    <p>
+                        I've studied Automatics and Computer Engineering in Iasi, Romania at the Technical University "Gh. Asachi". Even though my passion was towards Automatics and my specialty was this, I studied Algorithms and Data structures too. I got really interested in programming but my interest was in the lower levels of it. I love C++ and I still think it is the best object oriented programming language. I still use C++ in my hobby projects with embedded microcontrollers. In the University, I've also studied C and Java, operating systems, robotics, microcontrollers, databases, etc.
+                    </p>
+                    <p>
+                        I also have a Master's Degree in Business Management from Sibiu's Economics Faculty. There, I've studied Economics, Management, Logistics, Marketing and so on. This made me see things from the other side of an IT business and encouraged me to go on my own.
+                    </p>
+                </div>
+                <div id="hobbies">
+                    <h3>Hobbies</h3>
+                    <p>
+                        I love the IoT since we were not calling it like that. I did a lot of home automation before it was cool and I've played a lot with Embedded Operating Systems. Then I got into Android and it ate all my time: Wearables, Phones, Tablets, TVs, cars.
+                    </p>
+                    <p>
+                        I also like a lot of sports like football, skating, running, tennis, swimming. I love swimming so much I'll stop here to day dream about it. Splashhhh.
+                    </p>
+                </div>
+
             </div>
         </div>
     </section>
@@ -115,6 +136,7 @@
     </div>
     <div id="ios">
         <h3>iOS</h3>
+        <div id="ios-skills" width='1px' height='1px' />
         <p>
             Started exploring iOS a little before Swift language was made public by Apple. I am a big Apple fan and user but Obj-C was a little awkward for me in the beginning. I've started creating small projects to see how iOS works around 2013 but decided to wait for Swift to go live. In 2014 I started developing for iOS in Swift 1 but learned some ObjC because of all the documentation online. Now, am proud to say that I'm not a junior iOS developer anymore.
         </p>
@@ -135,12 +157,14 @@
         </div>
         <div id="ruby_on_rails">
             <h3>Ruby on Rails</h3>
+            <div id="ror-skills" width='1px' height='1px' />
             <p>
                 I didn't use to like RoR but it got my attention when I met Aryk Grosz (CTO at Mixbook) and he was amazed by the fact that we don't use RoR in Romania so much. I decided I should give it a try and I was amazed myself by the speed of development with Ruby. It seems like everything goes so smooth and the results are very fast visible. I settled to Ruby on Rails as my prefered backend technology to power my APIs. I already have two apps that connect to RoR backends I've coded and I'm working in close collaboration with RubyTribe Cluj to improve my skills.
             </p>
         </div>
         <div id="angular2">
             <h3>Angular2</h3>
+            <div id="angular-skills" width='1px' height='1px' />
             <p>
                 As an early adopter of programming languages and frameworks I've started learning Angular2 on a project that needed an Administration Panel on the web. Knowing nothing about web development offered me the possibility to learn whatever I choose. I went for Angular2 even though I was close to learning React. I'm doing pretty well in Typescript and I can handle most parts of the Framework, using without problem the Router, Http client, Data Binding, etc. It seems lately that all the technologies converge in doing things in similar ways as I found Angular2 to use the Reactive approach and Dependency Injection and all the good stuff I found on other platforms.
             </p>
@@ -245,9 +269,22 @@
             <!-- ba, cristi, git workshop @ wirtek -->
             <div id="simplon">
                 <h3>Simplon</h3>
+                <p>
+                    As a Simplon Trainer, I had a session of 3 workshops in which I've trained a group of non-technical persons create Android Apps. The goal of the workshop was to get them excited for a following bootcamp of 6 months. The participants really loved the app we created (can be found in my GitHub account) because it was about a viral YouTube movie at the moment.
+                </p>
+                <p>
+                Ba, Cristi is a YO! type of App meant to "call" the other person. We've got through creating Login, Register screens and a list of contacts that you can call. The app was wired with Firebase, Google Cloud Messanging and notifications to make it all work. We got to a MVP in the 3 sessions we had.
+                </p>
+                <img src="images/simplon.jpeg"  />
             </div>
             <div id="git">
                 <h3>Git Training at Wirtek</h3>
+                <p>
+                    As part of the Wirtek Viking Team I was deeply involved with all the phases of organizing two internships internally. My role changed through the internships from evaluating the candidates to mentoring the Android students and training everyone on tools and good practices.
+                </p>
+                <p>
+                    The Git Training was probably the most notable one because generated a lot of interest from a Wirtek team as well as for the students. The team was migrating at that point from SVN to Git and had a lot to learn about distributed version control systems. The training was a great success having everyone on track with Version Control with little struggle. First times are the hardest, right?
+                </p>
             </div>
         </div>
     </section>
@@ -319,6 +356,7 @@
 <script src="https://raw.githubusercontent.com/kimmobrunfeldt/progressbar.js/1.0.1/dist/progressbar.min.js"></script>
 <script src="libs/progressbaranimator.js"></script>
 <script src="libs/parallax.min.js"></script>
+<script src="libs/actions.js"></script>
 </body>
 
 
