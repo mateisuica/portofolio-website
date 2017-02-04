@@ -15,12 +15,14 @@
 
 body, html {
     height: 100%;
+    /*padding-top: 70px;*/
 }
 
 h1, h2 {
   color: white;
   font-size: 90px;
   text-align: center;
+  margin-top: 70px;
   font-family: 'Rubik', sans-serif;
 }
 
@@ -54,8 +56,8 @@ p {
     margin: 20px;
 }
 .section-container {
-    margin-left: 50px;
-    margin-right: 50px;
+    /*margin-left: 50px;*/
+    /*margin-right: 50px;*/
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 7px;
